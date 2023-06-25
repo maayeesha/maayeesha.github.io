@@ -1,4 +1,4 @@
-![CS Undergrad ](https://i.pinimg.com/564x/16/75/56/16755646fac01ef26c4cf8ff51af99a2.jpg)
+![CS Undergrad ](https://pbs.twimg.com/profile_banners/876492137138765824/1687706887/600x200)
 
 ### Hello there 👋, This is Maayeesha Farzana
 #### Currently a CS Undergrad at CUET
