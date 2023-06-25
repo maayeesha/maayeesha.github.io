@@ -1,5 +1,5 @@
 ### Hello there 👋, This is Maayeesha Farzana
-#### CS Undergrad 
+#### Currently a CS Undergrad at CUET
 ![CS Undergrad ](https://pbs.twimg.com/profile_banners/876492137138765824/1687706887/600x200)
 
 This is Maayeesha. I am a final year undergraduate student of Computer Science & Engineering. I really enjoy learning about different technology and frameworks. I aspire to use & create tools, media that will uplift society. If you are interested in empowering people through technology, Let's talk! 
