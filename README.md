@@ -25,8 +25,6 @@ Skills: C | C++ | HTML | CSS | JavaScript | Python | ReactJS
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=maayeesha&show_icons=true&count_private=true)  
 
-☄️![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=maayeesha)  
+!GitHub Activity Graph(https://activity-graph.herokuapp.com/graph?username=maayeesha)  
 
-🔥![GitHub streak stats](https://streak-stats.demolab.com/?user=maayeesha)  
-
-![Profile views](https://gpvc.arturio.dev/maayeesha)  
+!GitHub streak stats(https://streak-stats.demolab.com/?user=maayeesha)  
