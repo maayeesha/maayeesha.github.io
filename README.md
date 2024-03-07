@@ -1,5 +1,3 @@
-![CS Undergrad ](https://pbs.twimg.com/profile_banners/876492137138765824/1687706887/600x200)
-
 ### Hello there 👋, This is Maayeesha Farzana
 #### Techie - Writer - PM Enthusiast
 
