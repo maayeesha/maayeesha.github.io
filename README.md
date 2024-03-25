@@ -5,12 +5,12 @@ Profile Banner
 ### Hello there 👋, This is Maayeesha Farzana
 #### Techie - Writer - PM Enthusiast
 
-I am a final year undergraduate student of Computer Science & Engineering. I really enjoy learning about different technology and frameworks. I aspire to use & create tools, media that will uplift society. If you are interested in empowering people through technology, Let's talk! 
+I am a final year undergraduate student of Computer Science & Engineering. I enjoy learning about different technology and frameworks. I aspire to use & create tools, media that will uplift society. If you are interested in empowering people through technology, Let's talk! 
 
 Skills: C | C++ | HTML | CSS | JavaScript | Python | ReactJS
 
 - 🔭 I’m currently working on personal projects 
-- 🌱 I’m currently learning Machine Learning 
+- 🌱 I’m currently learning about Natural Language Processing
 - 👯 I’m looking to collaborate on Open Source projects 
 - 📫 How to reach me: https://www.linkedin.com/in/maayeeshafarzana/ 
 - ⚡ Fun fact: Surviving without caffeine 
@@ -21,8 +21,4 @@ Skills: C | C++ | HTML | CSS | JavaScript | Python | ReactJS
 
 
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=maayeesha)](https://github.com/ryo-ma/github-profile-trophy)
-
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=maayeesha)](https://github.com/anuraghazra/github-readme-stats)
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=maayeesha&show_icons=true&count_private=true)  
