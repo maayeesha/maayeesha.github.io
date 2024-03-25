@@ -17,7 +17,16 @@ Skills: C | C++ | HTML | CSS | JavaScript | Python | ReactJS
 
 
 
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/maayeesha)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/maayeeshafarzana/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg' alt='facebook' height='40'>](https://www.facebook.com/maayeeshafarzana)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='40'>](https://www.instagram.com/maayeesha_/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='40'>](https://twitter.com/maayeesha)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://sites.google.com/view/maayeesha)  
+<!-- HTML -->
+<div style="display: flex; justify-content: space-around; align-items: center;">
+    <a href="https://github.com/maayeesha"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="github" height="30" style="filter: invert(64%) sepia(32%) saturate(1105%) hue-rotate(191deg) brightness(91%) contrast(89%); margin: 5px;"></a>
+    <a href="https://www.linkedin.com/in/maayeeshafarzana/"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="linkedin" height="30" style="filter: invert(64%) sepia(32%) saturate(1105%) hue-rotate(191deg) brightness(91%) contrast(89%); margin: 5px;"></a>
+    <a href="https://www.facebook.com/maayeeshafarzana"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="facebook" height="30" style="filter: invert(64%) sepia(32%) saturate(1105%) hue-rotate(191deg) brightness(91%) contrast(89%); margin: 5px;"></a>
+    <a href="https://www.instagram.com/maayeesha_/"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="instagram" height="30" style="filter: invert(64%) sepia(32%) saturate(1105%) hue-rotate(191deg) brightness(91%) contrast(89%); margin: 5px;"></a>
+    <a href="https://twitter.com/maayeesha"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="twitter" height="30" style="filter: invert(64%) sepia(32%) saturate(1105%) hue-rotate(191deg) brightness(91%) contrast(89%); margin: 5px;"></a>
+    <a href="https://sites.google.com/view/maayeesha"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg" alt="website" height="30" style="filter: invert(64%) sepia(32%) saturate(1105%) hue-rotate(191deg) brightness(91%) contrast(89%); margin: 5px;"></a>
+</div>
+
 
 
 
