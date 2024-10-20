@@ -1,1 +1,1 @@
-A repository for my person Github portfolio page using HTML and markdown.
+A repository for my personal Github portfolio page using HTML and markdown.
