@@ -1,6 +1,6 @@
 ---
 
-[Home](index.md) | [Projects](projects.md) | [Contact](contact.md) | [Posts](posts.md) | [CV](cv.md)
+[Home](index.md) | [Projects](projects.md) | [Contact](contact.md) | [Posts](posts.md) | [CV](cv.pdf)
 
 ---
 
