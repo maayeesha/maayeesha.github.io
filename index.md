@@ -50,11 +50,23 @@ I am passionate about <span style=" color: purple; font-family: 'Courier New';">
 ---
 
 <p align="center">
-  <a href="https://github.com/maayeesha">GitHub</a> | 
-  <a href="https://linkedin.com/in/maayeeshafarzana">LinkedIn</a> | 
-  <a href="https://twitter.com/maayeesha">Twitter</a> | 
-  <a href="https://instagram.com/maayeesha_">Instagram</a>
+  <a href="https://github.com/maayeesha" target="_blank">
+    <img src="https://img.icons8.com/fluent/48/000000/github.png" alt="GitHub" style="width: 30px;"/>
+  </a>
+  <a href="https://linkedin.com/in/maayeeshafarzana" target="_blank">
+    <img src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt="LinkedIn" style="width: 30px;"/>
+  </a>
+  <a href="https://twitter.com/maayeesha" target="_blank">
+    <img src="https://img.icons8.com/fluent/48/000000/twitter.png" alt="Twitter" style="width: 30px;"/>
+  </a>
+  <a href="https://instagram.com/maayeesha_" target="_blank">
+    <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="Instagram" style="width: 30px;"/>
+  </a>
+  <a href="https://facebook.com/maayeeshafarzana" target="_blank">
+    <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" alt="Facebook" style="width: 30px;"/>
+  </a>
 </p>
+
 
 ---
 
