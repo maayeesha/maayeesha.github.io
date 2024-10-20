@@ -1,4 +1,3 @@
-
 <nav style="text-align: center;">
   <a href="index.md" target="_blank" style="padding: 10px;">Home</a>
   <a href="projects.html" target="_blank" style="padding: 10px;">Projects</a>
@@ -7,54 +6,65 @@
   <a href="gallery.html" target="_blank" style="padding: 10px;">Gallery</a>
 </nav>
 
-
-## Hello & Welcome!
+<h2>Hello & Welcome!</h2>
 <div style="text-align: justify;">
-I’m <span style="font-size: 2em; ">Maayeesha Farzana</span>, a recent Computer Science and Engineering graduate from Bangladesh. 
-<img src="Files/maayeesha.png" alt="maayeesha" style="float: right; margin: 0px 20px; width: 400px; border-radius: 50%;">
-
-I am passionate about <span style=" color: purple; font-family: 'Courier New';"> multi-domain decision-making </span> and harnessing <span style="color: purple; font-family: 'Courier New';"> machine learning </span> to tackle complex challenges with large-scale datasets. Currently, I’m getting my hands dirty in the exciting realms of <span style=" color: purple; font-family: 'Courier New';"> climate AI </span> and <span style=" color: purple; font-family: 'Courier New';"> biological data visualization. </span>
-
+  I’m <span style="font-size: 2em;">Maayeesha Farzana</span>, a recent Computer Science and Engineering graduate from Bangladesh. 
+  <img src="Files/maayeesha.png" alt="maayeesha" style="float: right; margin: 0px 20px; width: 400px; border-radius: 50%;">
+  
+  I am passionate about <span style="color: purple; font-family: 'Courier New';">multi-domain decision-making</span> and harnessing <span style="color: purple; font-family: 'Courier New';">machine learning</span> to tackle complex challenges with large-scale datasets. Currently, I’m getting my hands dirty in the exciting realms of <span style="color: purple; font-family: 'Courier New';">climate AI</span> and <span style="color: purple; font-family: 'Courier New';">biological data visualization.</span>
 </div>
 
-## Updates 
-### 2024
-- Graduated from Chittagong University of Engineering & Technology(CUET), Bangladesh
-- Defended my undergraduate thesis titled "Multiclass Bengali Audio Hate Speech Classification using Machine Learning & Deep Learning Algorithms"
-- Program Coordinator, ["Unplastic Bangladesh Campaign 2024"](https://greenleadglobal.org/unplastic/)
+<h2>Updates</h2>
+<h3>2024</h3>
+<ul>
+  <li>Graduated from Chittagong University of Engineering & Technology (CUET), Bangladesh</li>
+  <li>Defended my undergraduate thesis titled "Multiclass Bengali Audio Hate Speech Classification using Machine Learning & Deep Learning Algorithms"</li>
+  <li>Program Coordinator, <a href="https://greenleadglobal.org/unplastic/" target="_blank">"Unplastic Bangladesh Campaign 2024"</a></li>
+</ul>
 
-### 2023
-- General Secretary, IEEE CUET SB Women In Engineering Affinity Group
-- Mentee, Womentor 4.0, [Banglalink](https://staging.banglalink.net/en/corporate-social-responsibility/empowering-women-in-tech-through-womentor)
+<h3>2023</h3>
+<ul>
+  <li>General Secretary, IEEE CUET SB Women In Engineering Affinity Group</li>
+  <li>Mentee, Womentor 4.0, <a href="https://staging.banglalink.net/en/corporate-social-responsibility/empowering-women-in-tech-through-womentor" target="_blank">Banglalink</a></li>
+</ul>
 
-### 2022
-- Program Coordinator, IEEE CUET SB
-- Project Coordinator, [Green Lead](https://greenleadglobal.org/team/)
+<h3>2022</h3>
+<ul>
+  <li>Program Coordinator, IEEE CUET SB</li>
+  <li>Project Coordinator, <a href="https://greenleadglobal.org/team/" target="_blank">Green Lead</a></li>
+</ul>
 
-### 2021
-- Campus Ambassador, BDApps
-- Education Content Analyst, [Green Lead](https://greenleadglobal.org/team/)
-  
-### 2020
-- Executive Intern, Parent Care & CRM Department, Tinkers Technologies Ltd
-- Champion of "Face the Case" competition organized by IEEE CUET SB
-- Regional finalist,[Hult Prize](https://www.hultprize.org/) 2020 Regional Summit in Kuala Lumpur,Malaysia
-- Open Source Leader, Common Purpose
+<h3>2021</h3>
+<ul>
+  <li>Campus Ambassador, BDApps</li>
+  <li>Education Content Analyst, <a href="https://greenleadglobal.org/team/" target="_blank">Green Lead</a></li>
+</ul>
 
-### 2019
-- Winner, [Hult Prize](https://www.hultprize.org/) at CUET
-- Assistant Secretary of Public Relations, Hult Prize at CUET
+<h3>2020</h3>
+<ul>
+  <li>Executive Intern, Parent Care & CRM Department, Tinkers Technologies Ltd</li>
+  <li>Champion of "Face the Case" competition organized by IEEE CUET SB</li>
+  <li>Regional finalist, <a href="https://www.hultprize.org/" target="_blank">Hult Prize</a> 2020 Regional Summit in Kuala Lumpur, Malaysia</li>
+  <li>Open Source Leader, Common Purpose</li>
+</ul>
 
-### 2018-2011
-- Graduated School
-- Delegate, Beijing International Education Exchange 
-- Winner, "Inspiring Purpose 2015" poster awards,a program developed by Character Education Scotland
-- Volunteer, Youth's Voice
-- Trainee, Bangladesh Red-Crescent Society
-- Awardee of UNESCO General knowledge Test Award
+<h3>2019</h3>
+<ul>
+  <li>Winner, <a href="https://www.hultprize.org/" target="_blank">Hult Prize</a> at CUET</li>
+  <li>Assistant Secretary of Public Relations, Hult Prize at CUET</li>
+</ul>
 
+<h3>2018-2011</h3>
+<ul>
+  <li>Graduated School</li>
+  <li>Delegate, Beijing International Education Exchange</li>
+  <li>Winner, "Inspiring Purpose 2015" poster awards, a program developed by Character Education Scotland</li>
+  <li>Volunteer, Youth's Voice</li>
+  <li>Trainee, Bangladesh Red-Crescent Society</li>
+  <li>Awardee of UNESCO General Knowledge Test Award</li>
+</ul>
 
----
+<hr>
 
 <p align="center">
   <a href="https://github.com/maayeesha" target="_blank">
@@ -74,13 +84,4 @@ I am passionate about <span style=" color: purple; font-family: 'Courier New';">
   </a>
 </p>
 
-
----
-
-
-
-
-
-
-
-
+<hr>
