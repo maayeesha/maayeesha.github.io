@@ -1,5 +1,11 @@
 
-[Home](index.md) | [Projects](projects.md) | [Contact](contact.md) | [Posts](posts.md) | [CV](cv.pdf)
+<nav style="text-align: center;">
+  <a href="index.md">Home</a> |
+  <a href="Projects">Projects</a> |
+  <a href="contact.md">Let's Connect</a> |
+  <a href="posts.md">Posts</a> |
+  <a href="gallery.md"> Gallery </a>
+</nav>
 
 ## Hello & Welcome!
 <div style="text-align: justify;">
