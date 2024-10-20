@@ -1,10 +1,10 @@
 
 <nav style="text-align: center;">
-  <a href="index.md">Home</a> |
-  <a href="Projects">Projects</a> |
-  <a href="contact.md">Let's Connect</a> |
-  <a href="posts.md">Posts</a> |
-  <a href="gallery.md"> Gallery </a>
+  <a href="index.md" style="padding: 10px;">Home</a> 
+  <a href="Projects" style="padding: 10px;">Projects</a> 
+  <a href="contact.md" style="padding: 10px;">Let's Connect</a> 
+  <a href="posts.md" style="padding: 10px;">Posts</a> 
+  <a href="gallery.md" style="padding: 10px;"> Gallery </a>
 </nav>
 
 ## Hello & Welcome!
