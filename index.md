@@ -1,8 +1,5 @@
----
 
 [Home](index.md) | [Projects](projects.md) | [Contact](contact.md) | [Posts](posts.md) | [CV](cv.pdf)
-
----
 
 ## Hello & Welcome!
 <div style="text-align: justify;">
