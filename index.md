@@ -1,11 +1,12 @@
 
 <nav style="text-align: center;">
-  <a href="index.md" style="padding: 10px;">Home</a> 
-  <a href="projects.md" style="padding: 10px;">Projects</a> 
-  <a href="contact.md" style="padding: 10px;">Let's Connect</a> 
-  <a href="posts.md" style="padding: 10px;">Posts</a> 
-  <a href="gallery.md" style="padding: 10px;"> Gallery </a>
+  <a href="index.md" target="_blank" style="padding: 10px;">Home</a>
+  <a href="projects.html" target="_blank" style="padding: 10px;">Projects</a>
+  <a href="contact.html" target="_blank" style="padding: 10px;">Let's Connect</a>
+  <a href="posts.html" target="_blank" style="padding: 10px;">Posts</a>
+  <a href="gallery.html" target="_blank" style="padding: 10px;">Gallery</a>
 </nav>
+
 
 ## Hello & Welcome!
 <div style="text-align: justify;">
