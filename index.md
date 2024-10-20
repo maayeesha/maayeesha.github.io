@@ -44,6 +44,19 @@ I am passionate about <span style=" color: purple; font-family: 'Courier New';">
 - Awardee of UNESCO General knowledge Test Award
 
 
+---
+
+<p align="center">
+  <a href="https://github.com/maayeesha">GitHub</a> | 
+  <a href="https://linkedin.com/in/maayeeshafarzana">LinkedIn</a> | 
+  <a href="https://twitter.com/maayeesha">Twitter</a> | 
+  <a href="https://instagram.com/maayeesha_">Instagram</a>
+</p>
+
+---
+
+
+
 
 
 
