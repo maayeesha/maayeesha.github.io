@@ -1,1 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        body {
+            font-family: Helvetica, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        nav {
+            text-align: center;
+            background-color: #4c1130;
+            padding: 15px 0;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        h2 {
+            text-align: center;
+        }
+        .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery-item {
+            background-color: #ffffff;
+            margin: 15px;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            text-align: center;
+        }
+        .gallery-item img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .gallery-item p {
+            color: #333;
+            font-size: 14px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer img {
+            width: 30px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <h2>Visual Diary of Maayeesha</h2>
+
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="path/to/photo1.jpg" alt="Photo 1">
+            <p>Caption for Photo 1</p>
+        </div>
+        <div class="gallery-item">
+            <img src="path/to/photo2.jpg" alt="Photo 2">
+            <p>Caption for Photo 2</p>
+        </div>
+        <div class="gallery-item">
+            <img src="path/to/photo3.jpg" alt="Photo 3">
+            <p>Caption for Photo 3</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://github.com/maayeesha">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub">
+            </a>
+            <a href="https://linkedin.com/in/maayeeshafarzana">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg" alt="LinkedIn">
+            </a>
+        </div>
+        <p>© 2024 Maayeesha Farzana. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
 
