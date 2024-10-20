@@ -4,50 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4a4a4a;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            background-color: #333;
+            padding: 15px 0;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        h2 {
+            text-align: center;
+        }
+        .project {
+            background-color: #ffffff;
+            margin: 20px auto;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+        .project h3 {
+            color: #007bff;
+        }
+        .social-icons {
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer img {
+            width: 30px;
+            margin: 0 10px;
+        }
+    </style>
 </head>
-  
+
 <body>
 
-<nav style="text-align: center;">
-  <a href="index.md" target="_blank" style="padding: 10px;">Home</a>
-  <a href="projects.html" target="_blank" style="padding: 10px;">Projects</a>
-  <a href="contact.html" target="_blank" style="padding: 10px;">Let's Connect</a>
-  <a href="posts.html" target="_blank" style="padding: 10px;">Posts</a>
-  <a href="gallery.html" target="_blank" style="padding: 10px;">Gallery</a>
-</nav>
+<header>
+    <h1>Welcome to My Projects</h1>
+</header>
 
+<nav>
+    <a href="index.html" target="_blank">Home</a>
+    <a href="projects.html" target="_blank">Projects</a>
+    <a href="contact.html" target="_blank">Let's Connect</a>
+    <a href="posts.html" target="_blank">Posts</a>
+    <a href="gallery.html" target="_blank">Gallery</a>
+</nav>
 
 <h2>Here are some of the projects I've worked on:</h2>
 
-<div>
+<div class="project">
     <h3>1. Multiclass Bengali Audio Hate Speech Classification</h3>
     <p><strong>Description:</strong> Developed a machine learning model to classify hate speech in Bengali audio using various techniques in natural language processing and deep learning.</p>
     <p><strong>Technologies Used:</strong> Python, TensorFlow, Keras, Librosa, Scikit-learn.</p>
     <p><strong>Link:</strong> <a href="https://github.com/maayeesha/Audio-Hate-Speech-Classification" target="_blank">GitHub Repository</a></p>
 </div>
 
-<div>
+<div class="project">
     <h3>2. URL Shortener</h3>
     <p><strong>Description:</strong> Created a simple URL shortening service that allows users to generate shortened links for long URLs.</p>
     <p><strong>Technologies Used:</strong> Express JS, Node JS, MongoDB.</p>
     <p><strong>Link:</strong> <a href="https://github.com/maayeesha/reddot-project" target="_blank">GitHub Repository</a></p>
 </div>
 
-<div>
+<div class="project">
     <h3>3. Tourism Website - 'Roam'</h3>
     <p><strong>Description:</strong> Designed and developed a responsive tourism website to showcase various travel destinations, including user reviews and recommendations.</p>
     <p><strong>Technologies Used:</strong> ReactJS, CSS, HTML.</p>
     <p><strong>Link:</strong> <a href="https://github.com/maayeesha/Travel-website" target="_blank">GitHub Repository</a></p>
 </div>
 
-<div>
+<div class="project">
     <h3>4. Germkill Game</h3>
     <p><strong>Description:</strong> Developed a fun and educational game to teach players about hygiene and infection prevention.</p>
     <p><strong>Technologies Used:</strong> Python.</p>
     <p><strong>Link:</strong> <a href="https://github.com/maayeesha/Germ-Kill" target="_blank">GitHub Repository</a></p>
 </div>
 
-<div>
+<div class="project">
     <h3>5. Crop Recommender</h3>
     <p><strong>Description:</strong> Crop recommender system trained using Random Forest Algorithm.</p>
     <p><strong>Technologies Used:</strong> Python.</p>
@@ -56,30 +120,29 @@
 
 <hr>
 
-<p>Feel free to explore the projects, and don't hesitate to reach out if you have any questions or would like to collaborate!</p>
+<p style="text-align: center;">Feel free to explore the projects, and don't hesitate to reach out if you have any questions or would like to collaborate!</p>
+
+<div class="social-icons">
+    <a href="https://github.com/maayeesha" target="_blank">
+        <img src="https://img.icons8.com/fluent/48/000000/github.png" alt="GitHub"/>
+    </a>
+    <a href="https://linkedin.com/in/maayeeshafarzana" target="_blank">
+        <img src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt="LinkedIn"/>
+    </a>
+    <a href="https://twitter.com/maayeesha" target="_blank">
+        <img src="https://img.icons8.com/fluent/48/000000/twitter.png" alt="Twitter"/>
+    </a>
+    <a href="https://instagram.com/maayeesha_" target="_blank">
+        <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="Instagram"/>
+    </a>
+    <a href="https://facebook.com/maayeeshafarzana" target="_blank">
+        <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" alt="Facebook"/>
+    </a>
+</div>
+
+<footer>
+    <p>&copy; 2024 Maayeesha Farzana. All rights reserved.</p>
+</footer>
 
 </body>
-<hr>
-
-<p align="center">
-  <a href="https://github.com/maayeesha" target="_blank">
-    <img src="https://img.icons8.com/fluent/48/000000/github.png" alt="GitHub" style="width: 30px;"/>
-  </a>
-  <a href="https://linkedin.com/in/maayeeshafarzana" target="_blank">
-    <img src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt="LinkedIn" style="width: 30px;"/>
-  </a>
-  <a href="https://twitter.com/maayeesha" target="_blank">
-    <img src="https://img.icons8.com/fluent/48/000000/twitter.png" alt="Twitter" style="width: 30px;"/>
-  </a>
-  <a href="https://instagram.com/maayeesha_" target="_blank">
-    <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="Instagram" style="width: 30px;"/>
-  </a>
-  <a href="https://facebook.com/maayeeshafarzana" target="_blank">
-    <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" alt="Facebook" style="width: 30px;"/>
-  </a>
-</p>
-
-<hr>
-
 </html>
-
