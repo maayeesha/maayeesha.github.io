@@ -505,32 +505,46 @@
       bgCacheCanvas.height = Math.round(H * dpr);
       bgCacheKey = key;
       const bctx = bgCacheCanvas.getContext('2d');
-      bctx.save();
-      bctx.scale(dpr, dpr);
       const { scale, ox, oy } = mapTransform(W, H);
+      // Evaluate the loss on a coarse grid (one sample at the center of each
+      // stepPx-by-stepPx cell) into a small image, then upsample it with a
+      // single drawImage. Painting each cell with its own fillRect leaves faint
+      // seams at fractional zoom levels, where cell edges straddle device
+      // pixels and adjacent antialiased edges don't sum to fully opaque.
       const stepPx = 2;
       const cols = Math.ceil(W / stepPx);
       const rows = Math.ceil(H / stepPx);
+      const grid = document.createElement('canvas');
+      grid.width = cols;
+      grid.height = rows;
+      const gctx = grid.getContext('2d');
+      const img = gctx.createImageData(cols, rows);
       for (let r = 0; r < rows; r++) {
-        const py = r * stepPx;
-        const y = (py - oy) / scale;
+        const y = ((r + 0.5) * stepPx - oy) / scale;
         for (let c = 0; c < cols; c++) {
-          const px = c * stepPx;
-          const x = (px - ox) / scale;
+          const x = ((c + 0.5) * stepPx - ox) / scale;
           const loss = lossFromMargin(evalMargin(x, y, 1.0).m);
           const log2L = Math.log2(Math.max(Math.pow(2.0, -33), loss));
           const norm = Math.max(0.0, Math.min(1.0, (log2L + 26.0) / 30.0));
+          const i = 4 * (r * cols + c);
           if (dark) {
             const v = Math.round(12 + 22 * norm);
-            bctx.fillStyle = `rgb(${v}, ${v + 5}, ${v + 14})`;
+            img.data[i] = v;
+            img.data[i + 1] = v + 5;
+            img.data[i + 2] = v + 14;
           } else {
             const v = Math.round(252 - 22 * norm);
-            bctx.fillStyle = `rgb(${v - 4}, ${v}, ${v + 4})`;
+            img.data[i] = v - 4;
+            img.data[i + 1] = v;
+            img.data[i + 2] = v + 4;
           }
-          bctx.fillRect(px, py, stepPx, stepPx);
+          img.data[i + 3] = 255;
         }
       }
-      bctx.restore();
+      gctx.putImageData(img, 0, 0);
+      bctx.imageSmoothingEnabled = true;
+      bctx.imageSmoothingQuality = 'high';
+      bctx.drawImage(grid, 0, 0, cols * stepPx * dpr, rows * stepPx * dpr);
       return bgCacheCanvas;
     }
 
