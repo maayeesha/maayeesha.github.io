@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>A Fix for Softmax and Cross-Entropy</title>
-  <link rel="shortcut icon" href="../images/favicon/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" href="data:image/png;base64,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">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
@@ -282,7 +282,6 @@
       margin: 18px 0;
       padding: 8px 12px;
       border-radius: 6px;
-      overflow-x: auto;
       transition: background 0.25s;
     }
     .equation-row:target {
@@ -291,7 +290,10 @@
     .math-display {
       flex: 1;
       text-align: center;
+      min-width: 0;
       overflow-x: auto;
+      overflow-y: hidden;
+      padding: 4px 0;
     }
     .math-display .katex-display {
       margin: 0.25em 0;
@@ -589,6 +591,7 @@
     <div class="topbar-inner">
       <div class="topbar-title">A Fix for Softmax and Cross-Entropy</div>
       <div class="topbar-actions">
+        <a class="btn-pill" href="demo.html" target="_blank" rel="noopener">Interactive Demo</a>
         <a class="btn-pill" href="https://arxiv.org/abs/2610.31642" target="_blank" rel="noopener">arXiv</a>
         <button class="btn-pill" id="copy-bibtex-btn" data-bibtex="@article{barron2026softmaxfix,
   title={A Fix for Softmax and Cross-Entropy},
@@ -907,11 +910,12 @@ p_k)\)</span> and difference <span class="math-inline">\(u_k = q_k - p_k\)</span
     u_k = p_k \operatorname{expm1}(s_k)\,.\]</div><span class="eq-num">(9)</span></div>
 <p>Because <span class="math-inline">\(\sum_i p_i d_i = 0\)</span> and <span class="math-inline">\(\operatorname{expm1}(x) \ge x\)</span>, the
 input to <span class="math-inline">\(\operatorname{log1p}\)</span> is always non-negative.
-We then set <span class="math-inline">\(g_k = u_k - q_k \sum_i u_i\)</span> to remove
-any remaining floating-point drift from <span class="math-inline">\(\sum_k g_k = 0\)</span>.
-Because <span class="math-inline">\(d_k\)</span>, <span class="math-inline">\(s_k\)</span>, and <span class="math-inline">\(u_k\)</span> are evaluated using
-<span class="math-inline">\(\operatorname{expm1}\)</span> and <span class="math-inline">\(\operatorname{log1p}\)</span> without adding or subtracting <span class="math-inline">\(1\)</span>, <span class="math-inline">\(\mathbf{g}\)</span> remains
-accurate as <span class="math-inline">\(\mathbf{z}_{\mathrm{S}} \to \mathbf{z}_{\mathrm{T}}\)</span> and is <span class="math-inline">\(\mathbf{0}\)</span> when <span class="math-inline">\(\mathbf{z}_{\mathrm{S}} =
+When <span class="math-inline">\(|s_k| \ge 1\)</span>, we fall back to <span class="math-inline">\(u_k = q_k -
+p_k\)</span> to avoid <span class="math-inline">\(0.0 \times \infty\)</span> if <span class="math-inline">\(p_k\)</span> rounds to <span class="math-inline">\(0.0\)</span>
+while <span class="math-inline">\(\operatorname{expm1}\)</span> overflows, and we set <span class="math-inline">\(g_k = u_k - q_k
+\sum_i u_i\)</span> so that <span class="math-inline">\(\sum_k g_k = 0\)</span>.
+Because <a href="#eq:soft_fix" class="xref" data-ref="eq:soft_fix">Equation&nbsp;9</a> avoids adding or subtracting <span class="math-inline">\(1\)</span>, <span class="math-inline">\(\mathbf{g}\)</span>
+remains accurate as <span class="math-inline">\(\mathbf{z}_{\mathrm{S}} \to \mathbf{z}_{\mathrm{T}}\)</span> and is <span class="math-inline">\(\mathbf{0}\)</span> when <span class="math-inline">\(\mathbf{z}_{\mathrm{S}} =
 \mathbf{z}_{\mathrm{T}}\)</span>.
 Here is a JAX implementation of soft-target cross-entropy (using
 <code>log_softmax</code> and <code>softmax</code> from <a href="#sec:bug1" class="xref" data-ref="sec:bug1">Section&nbsp;2</a>), which
@@ -923,7 +927,7 @@ while substituting <span class="math-inline">\(\mathbf{g}\)</span> in the backwa
   delta = z_S - z_T                                                    # Logit difference.
   d = delta - jnp.sum(p * delta, axis=-1, keepdims=True)               # Center under p.
   s = d - jnp.log1p(jnp.sum(p * jnp.expm1(d), axis=-1, keepdims=True)) # log(q / p).
-  u = p * jnp.expm1(s)                                                 # Difference q - p.
+  u = jnp.where(jnp.abs(s) &lt; 1, p * jnp.expm1(s), q - p)               # Difference q - p.
   g = u - q * jnp.sum(u, axis=-1, keepdims=True)                       # Ensure sum(g) = 0.
   sg = jax.lax.stop_gradient
   loss = -jnp.sum(p * sg(log_q), axis=-1)                              # Forward loss.
@@ -933,7 +937,7 @@ while substituting <span class="math-inline">\(\mathbf{g}\)</span> in the backwa
   delta = z_S - z_T                                                    <span class="tok-comment"># Logit difference.</span>
   d = delta - jnp.sum(p * delta, axis=-1, keepdims=True)               <span class="tok-comment"># Center under p.</span>
   s = d - jnp.log1p(jnp.sum(p * jnp.expm1(d), axis=-1, keepdims=True)) <span class="tok-comment"># log(q / p).</span>
-  u = p * jnp.expm1(s)                                                 <span class="tok-comment"># Difference q - p.</span>
+  u = jnp.where(jnp.abs(s) &lt; 1, p * jnp.expm1(s), q - p)               <span class="tok-comment"># Difference q - p.</span>
   g = u - q * jnp.sum(u, axis=-1, keepdims=True)                       <span class="tok-comment"># Ensure sum(g) = 0.</span>
   sg = jax.lax.stop_gradient
   loss = -jnp.sum(p * sg(log_q), axis=-1)                              <span class="tok-comment"># Forward loss.</span>
