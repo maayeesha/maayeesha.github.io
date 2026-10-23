@@ -55,7 +55,48 @@
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
-<tr onmouseout="vbanana_stop()" onmouseover="vbanana_start()" bgcolor="#ffffd0">
+<tr onmouseout="softmaxfix_stop()" onmouseover="softmaxfix_start()" bgcolor="#ffffd0">
+  <td style="padding:16px;width:20%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='softmaxfix_image'>
+        <img src='images/softmaxfix_after.png' width=100%>
+      </div>
+      <img src='images/softmaxfix_before.png' width=100%>
+    </div>
+    <script type="text/javascript">
+      function softmaxfix_start() {
+        document.getElementById('softmaxfix_image').style.opacity = "1";
+      }
+
+      function softmaxfix_stop() {
+        document.getElementById('softmaxfix_image').style.opacity = "0";
+      }
+      softmaxfix_stop()
+    </script>
+  </td>
+  <td style="padding:8px;width:80%;vertical-align:middle">
+    <a href="softmaxfix/">
+      <span class="papertitle">A Fix for Softmax and Cross-Entropy</span>
+    </a>
+    <br>
+    <strong>Jonathan T. Barron</strong>,
+    <a href="https://scholar.google.com/citations?user=zNMOfjQAAAAJ&hl=en">Dan Gnanapragasam</a>,
+    <a href="https://mitscha.github.io/">Michael Tschannen</a>
+    <br>
+    <em>arXiv</em>, 2026
+    <br>
+    <a href="softmaxfix/">project page</a>
+    /
+    <a href="https://arxiv.org/abs/2610.31642">arXiv</a>
+    <p></p>
+    <p>
+    A simple rewrite of softmax, log-softmax, and cross-entropy fixes two bugs that corrupt gradients at high confidence and during distillation.
+    </p>
+  </td>
+</tr>
+
+
+<tr onmouseout="vbanana_stop()" onmouseover="vbanana_start()">
   <td style="padding:16px;width:20%;vertical-align:middle">
     <div class="one">
       <div class="two" id='vbanana_image'>
@@ -297,7 +338,7 @@
       </td>
     </tr>
 	
-    <tr onmouseout="bolt3d_stop()" onmouseover="bolt3d_start()"  bgcolor="#ffffd0">
+    <tr onmouseout="bolt3d_stop()" onmouseover="bolt3d_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
           <div class="two" id='bolt3d_image'><video  width=100% height=100% muted autoplay loop>
