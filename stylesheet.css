@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+a {
+  color: #2b71bc;  
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #E63946; 
+  text-decoration: none;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+  font-family: 'Titillium Web', Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+strong {
+  font-family: 'Titillium Web', Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+h2 {
+  margin: 0;
+  font-weight: normal;
+  font-family: 'Titillium Web', Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+.papertitle {
+  font-family: 'Titillium Web', Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.name {
+  padding-top: 20px;
+  margin: 0;
+  font-family: 'Titillium Web', Helvetica, sans-serif;
+  font-size: 2rem;
+}
+
+.one {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+
+.two {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+.fade {
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+span.highlight {
+  background-color: #ffffd0;
+}
+
+.colored-box {
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
