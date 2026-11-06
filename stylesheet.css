@@ -79,3 +79,94 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+/* Logo + text rows used in Experience, Talks, Projects, Awards, Service */
+.entry-table {
+  width: 100%;
+  border: 0px;
+  border-spacing: 0px;
+  border-collapse: separate;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo-cell {
+  padding: 14px 8px 14px 16px;
+  width: 72px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.logo {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.entry-cell {
+  padding: 14px 16px 14px 8px;
+  vertical-align: top;
+}
+
+.entry-cell p {
+  margin: 6px 0 0 0;
+}
+
+.entry-meta {
+  color: #888;
+}
+
+/* Tighter rows with smaller logos for one-line entries (awards) */
+.compact .logo-cell,
+.compact .entry-cell {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  vertical-align: middle;
+}
+
+.compact .logo {
+  width: 40px;
+  height: 40px;
+}
+
+/* Compact skill chips */
+.skill-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.skill-label {
+  width: 110px;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.skill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 8px;
+  border: 1px solid #e2e2e2;
+  border-radius: 12px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.skill img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+/* On phones, put each category label on its own line above its chips */
+@media (max-width: 600px) {
+  .skill-label {
+    width: 100%;
+  }
+}

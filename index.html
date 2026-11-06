@@ -7,6 +7,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="images/maayeesha.jpeg" type="image/jpeg">
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
+<script type="text/javascript">
+  function logoFallback(img) {
+    var domain = img.getAttribute('data-domain');
+    if (domain && !img.getAttribute('data-tried-favicon')) {
+      img.setAttribute('data-tried-favicon', '1');
+      img.src = 'https://www.google.com/s2/favicons?sz=128&domain=' + domain;
+    } else {
+      img.onerror = null;
+      img.style.visibility = 'hidden';
+    }
+  }
+</script>
 <style>
   body {
     background-color: #ffffff;
@@ -130,17 +142,6 @@ the French Compar:IA LLM Arena</span>
     </tr>
   </tbody></table>
 
-  <!-- FOOTER -->
-  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr>
-      <td style="padding:0px">
-        <br>
-        <p style="text-align:right;font-size:small;">
-          Template taken from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>.
-        </p>
-      </td>
-    </tr>
-  </tbody></table>
 
   <!-- EXPERIENCE SECTION -->
   <table class="entry-table"><tbody>
@@ -151,52 +152,47 @@ the French Compar:IA LLM Arena</span>
     </tr>
     <tr>
       <td class="logo-cell">
-        <a href="https://dauphine.psl.eu/"><img class="logo" src="images/logos/dauphine.png" data-domain="dauphine.psl.eu" onerror="logoFallback(this)" alt="Université Paris Dauphine – PSL logo"></a>
+        <a href="https://dauphine.psl.eu/"><img class="logo" src="images/dauphine.png" data-domain="https://acss-dig.psl.eu/en" onerror="logoFallback(this)" alt="ACSS  – PSL logo"></a>
       </td>
       <td class="entry-cell">
-        <strong>Research Assistant</strong>, <a href="https://dauphine.psl.eu/">Université Paris Dauphine – PSL</a><br>
+        <strong>Research Assistant</strong>, <a href="https://acss-dig.psl.eu/en">Applied Computational Social Science Institute – PSL</a><br>
         <span class="entry-meta">January 2026 – June 2026, Paris, France</span>
-        <p>I analyzed the readability of LLM responses and how it shapes user preferences, in collaboration with the ACSS-PSL institute and <a href="https://comparia.beta.gouv.fr/">Compar:IA</a>, the conversational AI comparator developed by the French Ministry of Culture.</p>
       </td>
     </tr>
     <tr>
       <td class="logo-cell">
-        <a href="https://greenleadglobal.org/"><img class="logo" src="images/logos/greenlead.png" data-domain="greenleadglobal.org" onerror="logoFallback(this)" alt="Green Lead logo"></a>
+        <a href="https://greenleadglobal.org/"><img class="logo" src="images/greenlead.png" data-domain="https://greenleadglobal.org/" onerror="logoFallback(this)" alt="Green Lead logo"></a>
       </td>
       <td class="entry-cell">
-        <strong>Governing Body Member</strong>, <a href="https://greenleadglobal.org/">Green Lead</a><br>
-        <span class="entry-meta">November 2021 – Present, Bangladesh. Governing Body Member since 2025, previously Project Coordinator (2021–2025) and Education Content Analyst (2021).</span>
-        <p>I led Taap-AI, an AI safety project that assesses the environmental impact of AI data centers, and co-led the Women for Climate initiative and the <a href="https://greenleadglobal.org/unplastic/">Unplastic Bangladesh</a> campaign, run with Sonali Bioplastics and the Embassy of the Netherlands, through which I taught more than 180 high school students about climate change and climate tech. I started out on the content team of <a href="https://solve.mit.edu/solutions/66124">ClimatED</a>, Green Lead’s climate education program for Gen-Z.</p>
+        <strong>Tech Solution Architect</strong>, <a href="https://greenleadglobal.org/">Green Lead</a><br>
+        <span class="entry-meta">December 2022 – August 2025, Bangladesh. previously Project Coordinator (2021–2022) and Education Content Analyst (2021).</span>
       </td>
     </tr>
     <tr>
       <td class="logo-cell">
-        <a href="https://ustc.ac.bd/"><img class="logo" src="images/logos/ustc.png" data-domain="ustc.ac.bd" onerror="logoFallback(this)" alt="USTC logo"></a>
+        <a href="https://ustc.ac.bd/"><img class="logo" src="images/ustc.png" data-domain="https://ustc.ac.bd/" onerror="logoFallback(this)" alt="USTC logo"></a>
       </td>
       <td class="entry-cell">
         <strong>Junior Lecturer</strong>, Department of Computer Science and Engineering, <a href="https://ustc.ac.bd/">University of Science and Technology Chittagong (USTC)</a><br>
         <span class="entry-meta">March 2025 – August 2025, Chittagong, Bangladesh</span>
-        <p>I taught Discrete Mathematics, the Operating Systems Lab, and Data Communication to undergraduates, and I designed and delivered the Communication Engineering course for final-year students, from the syllabus and lecture plan through to the assessments. I also mentored students on their technical and academic development.</p>
       </td>
     </tr>
     <tr>
       <td class="logo-cell">
-        <a href="https://cvasu.ac.bd/"><img class="logo" src="images/logos/cvasu.png" data-domain="cvasu.ac.bd" onerror="logoFallback(this)" alt="CVASU logo"></a>
+        <a href="https://cvasu.ac.bd/"><img class="logo" src="images/cvasu.jpeg" data-domain="https://cvasu.ac.bd/" onerror="logoFallback(this)" alt="CVASU logo"></a>
       </td>
       <td class="entry-cell">
         <strong>Research Assistant</strong>, <a href="https://cvasu.ac.bd/">Chattogram Veterinary and Animal Sciences University</a><br>
         <span class="entry-meta">October 2024 – August 2025, Chittagong, Bangladesh</span>
-        <p>I developed the analysis pipeline for whole-genome sequence analyses of Bangladeshi isolates of <em>Anaplasma marginale</em> and their comparison with global strains, and I identified key genomic variations using Bowtie, BCFtools, Roary, and R. I also led basic Linux training sessions for lab members.</p>
       </td>
     </tr>
     <tr>
       <td class="logo-cell">
-        <a href="https://www.bengalmobileqa.com/"><img class="logo" src="images/logos/bengalmobileqa.png" data-domain="bengalmobileqa.com" onerror="logoFallback(this)" alt="Bengal Mobile QA Solution logo"></a>
+        <a href="https://www.bengalmobileqa.com/"><img class="logo" src="images/bmqas.jpeg" data-domain="bengalmobileqa.com" onerror="logoFallback(this)" alt="Bengal Mobile QA Solution logo"></a>
       </td>
       <td class="entry-cell">
         <strong>Software Engineer (Intern)</strong>, <a href="https://www.bengalmobileqa.com/">Bengal Mobile QA Solution</a><br>
         <span class="entry-meta">January 2025 – February 2025, Chittagong, Bangladesh</span>
-        <p>I developed the backend of a hospital management application using NestJS and MongoDB.</p>
       </td>
     </tr>
   </tbody></table>
@@ -210,17 +206,16 @@ the French Compar:IA LLM Arena</span>
     </tr>
     <tr>
       <td class="logo-cell">
-        <a href="https://www.mbl.edu/"><img class="logo" src="images/logos/mbl.png" data-domain="mbl.edu" onerror="logoFallback(this)" alt="Marine Biological Laboratory logo"></a>
+        <a href="https://mesamalaria.org/updates/molecular-parasitology-meeting-mpm-xxxvi-2025/"><img class="logo" src="images/mpm.jpg" data-domain="https://mesamalaria.org/updates/molecular-parasitology-meeting-mpm-xxxvi-2025/" onerror="logoFallback(this)" alt=""></a>
       </td>
       <td class="entry-cell">
-        <span class="papertitle">Whole genome sequence analyses of Bangladeshi isolates of <em>Anaplasma marginale</em> and comparison with global strains at the genomic level</span><br>
-        Poster at the 36th Molecular Parasitology Meeting (MPM XXXVI), <a href="https://www.mbl.edu/">Marine Biological Laboratory</a>, Massachusetts, USA<br>
-        <span class="entry-meta">September 2025, third author</span>
+        <span class="papertitle">Whole genome sequence analyses of Bangladeshi isolates of <em>Anaplasma marginale</em> and comparison with global strains at the genomic level.<br>
+        <a href="data/mpm-poster.pdf" target="_blank">Poster</a></span> at the 36th Molecular Parasitology Meeting (MPM XXXVI),Marine Biological Laboratory</a>, Massachusetts, USA<br>
       </td>
     </tr>
     <tr>
       <td class="logo-cell">
-        <img class="logo" src="images/logos/ieee-cs.png" data-domain="computer.org" onerror="logoFallback(this)" alt="IEEE Computer Society logo">
+        <img class="logo" src="images/ieee-cs.png" data-domain="https://lnkd.in/p/eK6KsKBi" onerror="logoFallback(this)" alt="IEEE Computer Society logo">
       </td>
       <td class="entry-cell">
         <span class="papertitle">Harnessing Computer Science for a Sustainable Future</span><br>
@@ -230,61 +225,12 @@ the French Compar:IA LLM Arena</span>
     </tr>
     <tr>
       <td class="logo-cell">
-        <a href="https://www.hultprize.org/"><img class="logo" src="images/logos/hultprize.png" data-domain="hultprize.org" onerror="logoFallback(this)" alt="Hult Prize logo"></a>
+        <a href="https://www.hultprize.org/"><img class="logo" src="images/hult.jpg" data-domain="hultprize.org" onerror="logoFallback(this)" alt="Hult Prize logo"></a>
       </td>
       <td class="entry-cell">
         <span class="papertitle">From Idea to Screen: Perfecting Your Hult Prize Submission!</span><br>
         Guest speaker at Hult Prize at CUET<br>
         <span class="entry-meta">2025, Chittagong, Bangladesh</span>
-      </td>
-    </tr>
-  </tbody></table>
- 
-  <!-- PROJECTS SECTION -->
-  <table class="entry-table"><tbody>
-    <tr>
-      <td colspan="2" style="padding:16px;padding-bottom:0;vertical-align:middle">
-        <h2>Projects</h2>
-      </td>
-    </tr>
-    <tr>
-      <td class="logo-cell">
-        <a href="https://comparia.beta.gouv.fr/"><img class="logo" src="images/logos/comparia.png" data-domain="comparia.beta.gouv.fr" onerror="logoFallback(this)" alt="Compar:IA logo"></a>
-      </td>
-      <td class="entry-cell">
-        <span class="papertitle">Analyzing user preferences for LLM responses</span><br>
-        <span class="entry-meta">2026, Python</span>
-        <p>This project examines how readability and stylistic features influence which LLM responses users prefer, using a Bradley–Terry model to predict the outcomes of pairwise comparisons.</p>
-      </td>
-    </tr>
-    <tr>
-      <td class="logo-cell">
-        <img class="logo" src="images/logos/x.png" data-domain="x.com" onerror="logoFallback(this)" alt="X logo">
-      </td>
-      <td class="entry-cell">
-        <span class="papertitle">Sentiment analysis of industry attitudes towards AI</span><br>
-        <span class="entry-meta">2026, Python</span>
-        <p>I analyzed posts on X (formerly Twitter) from five industries and used statistical modeling to study how exposure to AI relates to negative sentiment.</p>
-      </td>
-    </tr>
-    <tr>
-      <td class="logo-cell">
-        <a href="https://cuet.ac.bd"><img class="logo" src="images/cuet.png" data-domain="cuet.ac.bd" onerror="logoFallback(this)" alt="CUET logo"></a>
-      </td>
-      <td class="entry-cell">
-        <span class="papertitle">Multiclass Bengali audio hate speech classification</span><br>
-        <span class="entry-meta">2024, Python, undergraduate thesis at CUET</span>
-        <p>For my thesis, “Multiclass Bengali Audio Hate Speech Classification using Machine Learning &amp; Deep Learning Algorithms”, I collected Bengali audio data, built a machine learning pipeline that classifies it into multiple hate speech categories, and used SHAP to explain the model’s predictions.</p>
-      </td>
-    </tr>
-    <tr>
-      <td class="logo-cell">
-        <a href="https://www.hultprize.org/"><img class="logo" src="images/logos/hultprize.png" data-domain="hultprize.org" onerror="logoFallback(this)" alt="Hult Prize logo"></a>
-      </td>
-      <td class="entry-cell">
-        <span class="papertitle">Aquaponics rooftop farming model</span><br>
-        <span class="entry-meta">2019, associated with Hult Prize 2020</span>
-        <p>I ran a pilot aquaponics project that successfully grew Bangladeshi chillies over three months.</p>
       </td>
     </tr>
   </tbody></table>
@@ -298,7 +244,7 @@ the French Compar:IA LLM Arena</span>
     </tr>
     <tr>
       <td class="logo-cell">
-        <a href="https://www.mckinsey.com/forward"><img class="logo" src="images/logos/mckinsey.png" data-domain="mckinsey.com" onerror="logoFallback(this)" alt="McKinsey logo"></a>
+        <a href="https://www.credly.com/badges/de0c8779-f940-4bba-a930-91c4af53e1c1/public_url"><img class="logo" src="images/mckinsey.png" data-domain="mckinsey.com" onerror="logoFallback(this)" alt="McKinsey logo"></a>
       </td>
       <td class="entry-cell">
         <strong>McKinsey Forward Learner</strong>, 2026
@@ -306,15 +252,7 @@ the French Compar:IA LLM Arena</span>
     </tr>
     <tr>
       <td class="logo-cell">
-        <img class="logo" src="images/logos/google.png" data-domain="google.com" onerror="logoFallback(this)" alt="Google logo">
-      </td>
-      <td class="entry-cell">
-        <strong>Ranked 4,338th, Code Jam to I/O for Women</strong>, Google, April 2021
-      </td>
-    </tr>
-    <tr>
-      <td class="logo-cell">
-        <img class="logo" src="images/logos/girlscript.png" data-domain="girlscript.tech" onerror="logoFallback(this)" alt="GirlScript Foundation logo">
+        <img class="logo" src="images/girlscript.jpg" data-domain="girlscript.tech" onerror="logoFallback(this)" alt="GirlScript Foundation logo">
       </td>
       <td class="entry-cell">
         <strong>Education Outreach Scholarship</strong>, GirlScript Foundation, March 2021
@@ -322,15 +260,15 @@ the French Compar:IA LLM Arena</span>
     </tr>
     <tr>
       <td class="logo-cell">
-        <a href="https://www.hultprize.org/"><img class="logo" src="images/logos/hultprize.png" data-domain="hultprize.org" onerror="logoFallback(this)" alt="Hult Prize logo"></a>
+        <a href="https://www.hultprize.org/"><img class="logo" src="images/hult-logo.png" data-domain="hultprize.org" onerror="logoFallback(this)" alt="Hult Prize logo"></a>
       </td>
       <td class="entry-cell">
-        <strong>Regional Finalist, Hult Prize 2020–21</strong>, Regional Summit in Kuala Lumpur, Malaysia
+        <strong>Regional Finalist, Hult Prize 2020-21</strong>, Regional Summit in Kuala Lumpur, Malaysia
       </td>
     </tr>
     <tr>
       <td class="logo-cell">
-        <a href="https://climatelaunchpad.org/"><img class="logo" src="images/logos/climatelaunchpad.png" data-domain="climatelaunchpad.org" onerror="logoFallback(this)" alt="ClimateLaunchpad logo"></a>
+        <a href="https://climatelaunchpad.org/"><img class="logo" src="images/launchpad.png" data-domain="climatelaunchpad.org" onerror="logoFallback(this)" alt="ClimateLaunchpad logo"></a>
       </td>
       <td class="entry-cell">
         <strong>Finalist and Summa Cum Climate graduate, ClimateLaunchpad 2020</strong>, co-funded by the European Union
@@ -338,7 +276,7 @@ the French Compar:IA LLM Arena</span>
     </tr>
     <tr>
       <td class="logo-cell">
-        <img class="logo" src="images/logos/ieee.png" data-domain="ieee.org" onerror="logoFallback(this)" alt="IEEE logo">
+        <img class="logo" src="images/ieee-cuet.png" data-domain="ieee.org" onerror="logoFallback(this)" alt="IEEE logo">
       </td>
       <td class="entry-cell">
         <strong>Champion, “Face the Case” competition</strong>, IEEE CUET Student Branch, 2020
@@ -346,7 +284,7 @@ the French Compar:IA LLM Arena</span>
     </tr>
     <tr>
       <td class="logo-cell">
-        <a href="https://www.hultprize.org/"><img class="logo" src="images/logos/hultprize.png" data-domain="hultprize.org" onerror="logoFallback(this)" alt="Hult Prize logo"></a>
+        <a href="https://www.hultprize.org/"><img class="logo" src="images/hult.jpg" data-domain="hultprize.org" onerror="logoFallback(this)" alt="Hult Prize logo"></a>
       </td>
       <td class="entry-cell">
         <strong>Champion, Hult Prize On Campus</strong>, CUET, 2019
@@ -354,7 +292,7 @@ the French Compar:IA LLM Arena</span>
     </tr>
     <tr>
       <td class="logo-cell">
-        <img class="logo" src="images/logos/unesco.png" data-domain="unesco.org" onerror="logoFallback(this)" alt="UNESCO logo">
+        <img class="logo" src="images/unesco.png" data-domain="unesco.org" onerror="logoFallback(this)" alt="UNESCO logo">
       </td>
       <td class="entry-cell">
         <strong>UNESCO General Knowledge Test Award</strong>, 2011
@@ -366,75 +304,103 @@ the French Compar:IA LLM Arena</span>
   <table class="entry-table"><tbody>
     <tr>
       <td colspan="2" style="padding:16px;padding-bottom:0;vertical-align:middle">
-        <h2>Leadership and Service</h2>
+        <h2>Leadership</h2>
       </td>
     </tr>
     <tr>
       <td class="logo-cell">
-        <a href="https://www.iaseai.org/"><img class="logo" src="images/logos/iaseai.png" data-domain="iaseai.org" onerror="logoFallback(this)" alt="IASEAI logo"></a>
+        <a href="https://www.iaseai.org/"><img class="logo" src="images/iaseai.png" data-domain="iaseai.org" onerror="logoFallback(this)" alt="IASEAI logo"></a>
       </td>
       <td class="entry-cell">
         <strong>Volunteer</strong>, <a href="https://www.iaseai.org/">International Association for Safe and Ethical AI (IASEAI)</a><br>
         <span class="entry-meta">February 2026, Paris, France</span>
-        <p>I volunteered for the session on “Epistemological challenges of AI” at the IASEAI Conference 2026, held at UNESCO Headquarters in Paris.</p>
       </td>
     </tr>
     <tr>
       <td class="logo-cell">
-        <img class="logo" src="images/logos/ieee-wie.png" data-domain="wie.ieee.org" onerror="logoFallback(this)" alt="IEEE Women in Engineering logo">
+        <img class="logo" src="images/iee-wie.jpg" data-domain="wie.ieee.org" onerror="logoFallback(this)" alt="IEEE Women in Engineering logo">
       </td>
       <td class="entry-cell">
         <strong>General Secretary</strong>, IEEE CUET Student Branch Women in Engineering Affinity Group<br>
         <span class="entry-meta">June 2023 – June 2024, after serving as Program Coordinator from May 2022 to May 2023</span>
-        <p>I planned technical competitions and seminars, managed sponsors and media, and organized national events.</p>
       </td>
     </tr>
     <tr>
       <td class="logo-cell">
-        <a href="https://www.banglalink.net/"><img class="logo" src="images/logos/banglalink.png" data-domain="banglalink.net" onerror="logoFallback(this)" alt="Banglalink logo"></a>
+        <a href="https://www.banglalink.net/"><img class="logo" src="images/banglalink.jpg" data-domain="banglalink.net" onerror="logoFallback(this)" alt="Banglalink logo"></a>
       </td>
       <td class="entry-cell">
         <strong>Mentee, Womentor 4.0</strong>, <a href="https://www.banglalink.net/">Banglalink Digital Communications Ltd.</a><br>
         <span class="entry-meta">July 2023 – February 2024, Dhaka, Bangladesh</span>
-        <p>I was selected as one of the top 10 mentees of the Banglalink Womentor 4.0 program.</p>
       </td>
     </tr>
     <tr>
       <td class="logo-cell">
-        <img class="logo" src="images/logos/bdapps.png" data-domain="bdapps.com" onerror="logoFallback(this)" alt="BDApps logo">
+        <a href="https://www.bdapps.com/"><img class="logo" src="images/bdapps.png" data-domain="bdapps.com" onerror="logoFallback(this)" alt="BDApps logo"></a>
       </td>
       <td class="entry-cell">
         <strong>Campus Ambassador</strong>, BDApps<br>
         <span class="entry-meta">March 2021 – March 2022, Dhaka, Bangladesh</span>
-        <p>I generated revenue for the platform and built a service app with BDApps’ Lite App that gained more than 80 users.</p>
       </td>
     </tr>
     <tr>
       <td class="logo-cell">
-        <img class="logo" src="images/logos/bcf.png" onerror="logoFallback(this)" alt="Bangladesh China Foundation logo">
+        <img class="logo" src="images/bcf.jpg" onerror="logoFallback(this)" alt="Bangladesh China Foundation logo">
       </td>
       <td class="entry-cell">
         <strong>Delegate from Bangladesh</strong>, Beijing Education Exchange Program, Bangladesh China Foundation<br>
         <span class="entry-meta">March 2017</span>
-        <p>I represented Bangladesh in a 15-day program that introduced delegates to the Chinese education system and culture.</p>
       </td>
     </tr>
   </tbody></table>
  
-  <!-- SKILLS SECTION -->
-  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr>
       <td style="padding:16px;width:100%;vertical-align:middle">
         <h2>Technical Skills</h2>
-        <p><strong>Programming and data analysis:</strong> Python, R, C/C++, SQL, and Scala.</p>
-        <p><strong>Data processing and NLP:</strong> Pandas, NumPy, NLTK, and spaCy.</p>
-        <p><strong>Machine learning and deep learning:</strong> scikit-learn, TensorFlow, Keras, and PyTorch.</p>
-        <p><strong>Data visualization:</strong> Matplotlib, Seaborn, and Circos.</p>
-        <p><strong>Tools and environments:</strong> Git, VS Code, Anaconda, uv, Linux, macOS, and Windows.</p>
+        <div class="skill-row">
+          <span class="skill-label">Languages</span>
+          <span class="skill"><img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/python/python-original.svg" width="16" height="16" alt="">Python</span>
+          <span class="skill"><img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/r/r-original.svg" width="16" height="16" alt="">R</span>
+          <span class="skill"><img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/c/c-original.svg" width="16" height="16" alt="">C</span>
+          <span class="skill"><img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/cplusplus/cplusplus-original.svg" width="16" height="16" alt="">C++</span>
+          <span class="skill">SQL</span>
+          <span class="skill"><img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/scala/scala-original.svg" width="16" height="16" alt="">Scala</span>
+        </div>
+        <div class="skill-row">
+          <span class="skill-label">Data and NLP</span>
+          <span class="skill"><img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/pandas/pandas-original.svg" width="16" height="16" alt="">Pandas</span>
+          <span class="skill"><img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/numpy/numpy-original.svg" width="16" height="16" alt="">NumPy</span>
+          <span class="skill">NLTK</span>
+          <span class="skill"><img src="https://cdn.jsdelivr.net/npm/simple-icons@16.35.0/icons/spacy.svg" width="16" height="16" alt="">spaCy</span>
+        </div>
+        <div class="skill-row">
+          <span class="skill-label">ML and DL</span>
+          <span class="skill"><img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/scikitlearn/scikitlearn-original.svg" width="16" height="16" alt="">scikit-learn</span>
+          <span class="skill"><img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/tensorflow/tensorflow-original.svg" width="16" height="16" alt="">TensorFlow</span>
+          <span class="skill"><img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/keras/keras-original.svg" width="16" height="16" alt="">Keras</span>
+          <span class="skill"><img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/pytorch/pytorch-original.svg" width="16" height="16" alt="">PyTorch</span>
+        </div>
+        <div class="skill-row">
+          <span class="skill-label">Visualization</span>
+          <span class="skill"><img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/matplotlib/matplotlib-original.svg" width="16" height="16" alt="">Matplotlib</span>
+          <span class="skill">Seaborn</span>
+          <span class="skill">Circos</span>
+        </div>
+        <div class="skill-row">
+          <span class="skill-label">Tools</span>
+          <span class="skill"><img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/git/git-original.svg" width="16" height="16" alt="">Git</span>
+          <span class="skill"><img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/vscode/vscode-original.svg" width="16" height="16" alt="">VS Code</span>
+          <span class="skill"><img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/anaconda/anaconda-original.svg" width="16" height="16" alt="">Anaconda</span>
+          <span class="skill"><img src="https://cdn.jsdelivr.net/npm/simple-icons@16.35.0/icons/uv.svg" width="16" height="16" alt="">uv</span>
+          <span class="skill"><img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/linux/linux-original.svg" width="16" height="16" alt="">Linux</span>
+          <span class="skill"><img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/apple/apple-original.svg" width="16" height="16" alt="">macOS</span>
+          <span class="skill"><img src="https://cdn.jsdelivr.net/npm/devicon@2.17.0/icons/windows11/windows11-original.svg" width="16" height="16" alt="">Windows</span>
+        </div>
       </td>
     </tr>
   </tbody></table>
- 
+
   <!-- FOOTER -->
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr>
@@ -446,7 +412,7 @@ the French Compar:IA LLM Arena</span>
       </td>
     </tr>
   </tbody></table>
- 
+
 </td>
 </tr>
 </table>
